@@ -13,7 +13,7 @@ from nltk.tokenize import word_tokenize
 def get_data():
     
     # Reading Meta Data
-    with open('./data/meta.json.zip','r') as f:
+    with open('./data/meta.json','r') as f:
         meta = json.loads(f.read())
 
     # Normalizing meta data
